@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    background-color: #E4E4E4;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
