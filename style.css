@@ -4,11 +4,34 @@
     box-sizing: border-box;
 }
 
+body{
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+}
 
 ul{
     background-color: #E4E4E4;
     display: flex;
     justify-content: space-between;
     list-style: none;
+
+}
+
+section{
+    display: flex;
+}
+.marca{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.apresenta{
+
+    margin-top: 5rem;
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
 
 }
