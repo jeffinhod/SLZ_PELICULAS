@@ -1,17 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
 *{
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body{
-    max-width: 80%;
+    max-width: 1200px;
+    padding: 0 5%;
     height: auto;
     margin: auto;
 }
 
-ul{
+nav{
+    display: block;
+    max-width:100vh;
     background-color: #E4E4E4;
+}
+
+ul{
+  
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -20,18 +31,90 @@ ul{
 
 section{
     display: flex;
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 2rem;
+    align-items: flex-start;
 }
+
+h3{
+    font-size: 24px;
+}
+
+mark{
+    background-color: #6981D1; 
+    color: white;
+}
+
+p{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.localiza{
+    margin-top: 1rem;
+}
+
+.colortexto{
+    color: #6981D1; 
+}
+
+.boxmarcas{
+    width: 20%;
+}
+
+.boxfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.boxapresenta{
+    width: 50%;
+    align-items: center;
+}
+
+.boxlogo{
+
+}
+
 .marca{
     max-width: 100%;
     height: auto;
+    padding: 2rem 0 2rem 0;
 
 }
+
+
 
 .apresenta{
 
-    margin-top: 5rem;
+    margin: 0 auto;
     max-width: 50%;
     height: auto;
-    border-radius: 50%;
-
 }
+
+#buttonzap{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-color: #69d175;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 16px;
+}
+
+.icon {
+    width: 20px; /* Largura do ícone */
+    height: 20px; /* Altura do ícone */
+    background-image: url(./icons/whatsapp.png);
+    background-size: contain; /* Ajuste o tamanho do ícone */
+    background-repeat: no-repeat; /* Evita a repetição do ícone */
+    background-position: center; /* Centraliza o ícone */
+    position: absolute; /* Para posicionar o ícone absolutamente */
+
+  }
